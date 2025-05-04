@@ -1,0 +1,18 @@
+public class encap{
+
+private String name;
+public void setName(String n){
+    name = n;
+}
+    
+public String getName(){
+    return name;
+}
+
+
+    public static void main(String[] args) {
+        encap e = new encap();
+        e.setName("aishu");
+        System.out.println(e.getName());
+    }
+}
